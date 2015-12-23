@@ -39,5 +39,3 @@ File.readlines('input.txt').select do |instruction|
 end
 
 p @lights.inject{|sum,x| sum + x }
-
-# TODO: Count 1's
